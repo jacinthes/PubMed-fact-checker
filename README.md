@@ -35,8 +35,8 @@ docker run -p 8501:8501 pubmed-fact-checker
 ### App workflow
 ![Alt text](https://github.com/jacinthes/PubMed-fact-checker/blob/main/app_workflow.png)
 ### Query rephrasing with GPT3.5
-Searching pubmed with unedited natural language does not yield good results. For this reason the user's provided fact is rephrased as a PubMed query. See below example.
-Fact: Mediterranean diet helps with weight loss.
+Searching pubmed with unedited natural language does not yield good results. For this reason the user's provided fact is rephrased as a PubMed query. See below example.<br />
+Fact: Mediterranean diet helps with weight loss.<br />
 Rephrased as query: "Mediterranean diet"[All Fields] AND "weight loss"[All Fields]
 ### pymed PubMed
 Pymed is used to retrieve top 50 relevant articles (article conclusions or abstract) for the given search query. This number can be increased but it leads to longer load times.
