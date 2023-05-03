@@ -1,0 +1,9 @@
+Does the evidence entail the hypothesis? Answer with Entails, Contradicts or Undetermined.
+Label explanation:
+Entails: hypothesis is true.
+Contradicts: hypothesis is false.
+Undetermined: hypothesis is undetermined.
+
+EVIDENCE: <<EVIDENCE>>
+HYPOTHESIS: <<HYPOTHESIS>>
+ANSWER:
