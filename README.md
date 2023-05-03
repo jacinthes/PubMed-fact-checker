@@ -24,6 +24,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ### Docker - Docker needed
+Download and save the provided Dockerfile.
 ```
 docker build -t pubmed-fact-checker
 ```
@@ -32,3 +33,4 @@ docker run -p 8501:8501 pubmed-fact-checker
 ```
 ## How does it work
 ### App workflow
+![Alt text](https://github.com/jacinthes/PubMed-fact-checker/blob/main/app_workflow.png)
