@@ -98,7 +98,7 @@ def run_ui():
     
     sidebar.title('HOW IT WORKS')
     sidebar.write('Source code and an in-depth app description available at:')
-    sidebar.info('**GitHub: [@jacinthes](https://github.com/jacinthes/slovene-nli-benchmark)**', icon="💻")
+    sidebar.info('**GitHub: [@jacinthes](https://github.com/jacinthes/PubMed-fact-checker)**', icon="💻")
     sidebar.title('DISCLAIMER')
     sidebar.write('This project is meant for educational and research purposes. \n'
                   'PubMed fact-checker may provide inaccurate information.')
