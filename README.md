@@ -43,7 +43,7 @@ Pymed is used to retrieve top 50 relevant articles (article conclusions or abstr
 ### Reranking
 PubMed search also returns articles, which are not highly relevant to assess the given fact.
 A [cross-encoder](https://www.sbert.net/examples/applications/cross-encoder/README.html) reranker is used, which returns a relevance score for each fact-article pair. Only articles with a positive relevance score are kept and maximum 10. The maximum number is set to limit OpenAI costs.
-###Fact-checking
+### Fact-checking
 GPT3.5 is prompted to assess whether the given fact is True/False/Undetermined based on the evidence provided in each article. The result of this process is a label for each fact-article pair.
-###Results
+### Results
 Articles and labels are then shown to the user using a sunburst chart. Each article is a link, which leads to the pubmed article page.
