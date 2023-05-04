@@ -1,6 +1,6 @@
 # PubMed-fact-checker
 
-The PubMed fact-checker app enables users to verify biomedical claims by comparing them against research papers available on PubMed.
+The [PubMed](https://pubmed.ncbi.nlm.nih.gov/) fact-checker app enables users to verify biomedical claims by comparing them against research papers available on PubMed.
 
 As the number of self-proclaimed experts continues to rise, so does the risk of harmful misinformation. This app showcases the potential of Large Language Models to provide accurate and valuable information to people.
 
