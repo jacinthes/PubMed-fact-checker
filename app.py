@@ -121,6 +121,12 @@ def run_ui():
         st.warning('To ensure accurate searching, please keep your fact under 75 characters.')
         st.session_state.valid_inputs_received = False
         st.stop()
+        
+    elif submitted and '?' in fact:
+        st.warning('Please state a fact. PubMed Fact Checker is good at verifying facts, '
+                   'it is not meant to answer questions.')
+        st.session_state.valid_inputs_received = False
+        st.stop()
 
     elif submitted or st.session_state.valid_inputs_received:
         pubmed_query = GPTHelper.gpt35_rephrase(fact)  # Call gpt3.5 to rephrase the fact as a PubMed query.
